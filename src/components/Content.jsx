@@ -15,7 +15,7 @@ import usersIllustration from "../assets/illustration-your-users.svg";
 
 const Content = () => {
   return (
-    <div className="lg:my-20">
+    <div className="lg:mt-5 lg:mb-20">
       <div className="w-[80%] mx-auto flex justify-center">
         <img src={mockup} alt="logo" />
       </div>
