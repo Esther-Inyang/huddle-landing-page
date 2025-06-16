@@ -17,7 +17,7 @@ const Content = () => {
   return (
     <div className="lg:mt-5 lg:mb-20">
       <div className="w-[80%] mx-auto flex justify-center">
-        <img src={mockup} alt="logo" />
+        <img src={mockup} alt="a mockup" />
       </div>
       <div className="w-[70%] md:w-[60%] mx-auto my-16 lg:my-32 flex flex-col gap-14 md:gap-0 md:flex-row md:justify-between">
         <div className="flex flex-col gap-1 justify-center items-center">
@@ -33,7 +33,7 @@ const Content = () => {
         </div>
         <div className="flex flex-col gap-1 items-center">
           <div>
-            <img src={message} alt="logo" className="w-6 lg:w-10" />
+            <img src={message} alt="message logo" className="w-6 lg:w-10" />
             <p className="text-5xl lg:text-6xl xl:text-7xl text-[#00252e] font-bold">
               2.7m+
             </p>
